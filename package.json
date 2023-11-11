@@ -1,0 +1,16 @@
+{
+  "name": "color-flipper",
+  "version": "1.0.0",
+  "description": "it's Radom color picker website",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "delin shabu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
