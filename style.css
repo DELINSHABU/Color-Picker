@@ -56,3 +56,22 @@ button:active {
   background-color: white;
   color: cadetblue;
 }
+#copy-container {
+  text-align: center;
+  margin: 50px;
+}
+
+#text-to-copy {
+  /* border: 1px solid #ccc;*/
+  background-color: rgb(85, 84, 84);
+  border-radius: 5vh;
+  margin: 0vh, 0vh;
+  font-size: 1rem;
+  color: wheat;
+  margin-bottom: 10px;
+}
+
+#copy-button {
+  padding: 10px;
+  cursor: pointer;
+}
