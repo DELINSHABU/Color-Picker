@@ -1,11 +1,11 @@
 //* Getting body 
-var body = document.querySelector("body")
+let body = document.querySelector("body")
 
-var color = body.style.backgroundColor ="#FFFFFF"
+let color = body.style.backgroundColor ="#FFFFFF" 
 
-var hex =[0,1,2,3,4,5,6,7,8,9,"a","b","c","b","e","f"]
+const hex =[0,1,2,3,4,5,6,7,8,9,"a","b","c","b","e","f"]
 
-var btn =document.querySelector("button")
+let btn =document.querySelector("button")
 
 //* for (var i )
 btn.addEventListener('click',  function(){
@@ -47,3 +47,7 @@ document.getElementById("copy").addEventListener('click', () => {
 function randomNumber(){
     return Math.floor(Math.random()*hex.length)
 }
+
+
+
+

@@ -22,7 +22,7 @@ nav {
   background-color: cadetblue;
   padding: 1vh;
 }
-div {
+.Main-Div {
   border: 2px
     solid
     cadetblue;
